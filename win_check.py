@@ -22,3 +22,5 @@ def win_check(board, mark):
         )
         or (board[9] == mark and board[5] == mark and board[1] == mark)  # diagonal
     )
+
+win_check(test_board, "O")

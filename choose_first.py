@@ -5,3 +5,5 @@ def choose_first():
         return "Player 2"
     else:
         return "Player 1"
+
+choose_first()

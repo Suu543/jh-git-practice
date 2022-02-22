@@ -1,0 +1,8 @@
+from struct import pack
+
+
+def full_board_check(board):
+    for i in range(0,10):
+        if space_check(board, i):
+            return False
+    return True
